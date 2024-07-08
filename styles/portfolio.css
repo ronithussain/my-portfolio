@@ -45,14 +45,14 @@ nav li a{
 }
 .btn{
    background: #FD6E0A; 
-   width: 150px;
+   width: 200px;
    height: 60px;
    font-weight: bold;
    font-size: 20px;
    border: none;
    color: white;
    border-radius: 10px;
-   padding: 15px 10px;
+   /* padding: 20px 20px; */
 }
 .banner{
     display: flex;
