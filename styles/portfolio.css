@@ -71,6 +71,7 @@ nav li a{
     width: 170px;
     /* height:60px ; */
     margin-bottom: 30px;
+    line-height: 0;
 }
 .banner-title{
     font-weight: bold;
@@ -78,6 +79,7 @@ nav li a{
     color:#181818 ;
     /* height: 110px; */
     width: 490px;
+    line-height: 20px;
 }
 .banner-description{
     color: #757575;
@@ -182,4 +184,37 @@ background: #FFFFFF;
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* ___________footer___________ */
+.footer-container{
+    background: #FFF8F3;
+    max-width: 1850px;
+    height: 750px;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 30px;
+    padding: 130px 230px;
+}
+.footer-container input[type="text"], input[type="email"],  textarea{
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #474747;
+    width: 100%;
+    margin-bottom: 25px;
+    border: none;
+    display: block;
+
+}
+.footer-column{
+    width: 50%;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.footer-description{
+    font-size: 16px;
+    color: #474747;
+    line-height: 20px;
 }
